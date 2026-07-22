@@ -1,0 +1,271 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<ApplicationHighDpiMode>DpiUnaware</ApplicationHighDpiMode>
+
+		<ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\ENFJ_CommunityManager.PNG" />
+	  <None Remove="Resources\ENFJ_HRManager.PNG" />
+	  <None Remove="Resources\ENFJ_Teacher.PNG" />
+	  <None Remove="Resources\ENFJ_TrainingSpecialist.PNG" />
+	  <None Remove="Resources\ENFP_ContentCreator.PNG" />
+	  <None Remove="Resources\ENFP_EventPlanner.PNG" />
+	  <None Remove="Resources\ENFP_MarketingCreative.PNG" />
+	  <None Remove="Resources\ENFP_PRSpecialist .PNG" />
+	  <None Remove="Resources\ENTJ_BusinessExecutive.PNG" />
+	  <None Remove="Resources\ENTJ_ManagementConsultant.PNG" />
+	  <None Remove="Resources\ENTJ_OperationsManager.PNG" />
+	  <None Remove="Resources\ENTJ_ProjectManager.PNG" />
+	  <None Remove="Resources\ENTP and ESTP_Entrepreneur.PNG" />
+	  <None Remove="Resources\ENTP_MarketingManager.PNG" />
+	  <None Remove="Resources\ENTP_ProductManager.PNG" />
+	  <None Remove="Resources\ENTP_ProductStrategist.PNG" />
+	  <None Remove="Resources\ESFJ_Client Relations Specialist.PNG" />
+	  <None Remove="Resources\ESFJ_HR Coordinator.PNG" />
+	  <None Remove="Resources\ESFJ_Office Manager.PNG" />
+	  <None Remove="Resources\ESFP - Actor %281%29.PNG" />
+	  <None Remove="Resources\ESFP_Hospitality Coordinator.PNG" />
+	  <None Remove="Resources\ESFP_Performer_Host.PNG" />
+	  <None Remove="Resources\ESFP_Retail Manager.PNG" />
+	  <None Remove="Resources\ESTJ_BankOfficer.PNG" />
+	  <None Remove="Resources\ESTJ_LogisticsManager.PNG" />
+	  <None Remove="Resources\ESTJ_OperationsSupervisor.PNG" />
+	  <None Remove="Resources\ESTJ_StoreManager.PNG" />
+	  <None Remove="Resources\ESTP_EmergencyServiceTechnician.PNG" />
+	  <None Remove="Resources\ESTP_Entrepreneur.PNG" />
+	  <None Remove="Resources\ESTP_SalesRepresentative.PNG" />
+	  <None Remove="Resources\INFJ_ContentStrategist.PNG" />
+	  <None Remove="Resources\INFJ_Counselor.PNG" />
+	  <None Remove="Resources\INFJ_Doctor.PNG" />
+	  <None Remove="Resources\INFJ_Psychologist.PNG" />
+	  <None Remove="Resources\INFP_Event Coordinator.PNG" />
+	  <None Remove="Resources\INFP_Illustrator.PNG" />
+	  <None Remove="Resources\INFP_Writer.PNG" />
+	  <None Remove="Resources\INTJ_AIEngineer.PNG" />
+	  <None Remove="Resources\INTJ_ResearchScientist.PNG" />
+	  <None Remove="Resources\INTJ_SoftwareArchitect.PNG" />
+	  <None Remove="Resources\INTJ_StrategyConsultant.PNG" />
+	  <None Remove="Resources\INTP_DataScientist.png" />
+	  <None Remove="Resources\INTP_RoboticsEngineer.png" />
+	  <None Remove="Resources\INTP_SystemsAnalyst.png" />
+	  <None Remove="Resources\INTP_UXResearcher.png" />
+	  <None Remove="Resources\ISFJ_AdministrativeOfficer.PNG" />
+	  <None Remove="Resources\ISFJ_Librarian.PNG" />
+	  <None Remove="Resources\ISFJ_Nurse.PNG" />
+	  <None Remove="Resources\ISFP_CraftArtist.PNG" />
+	  <None Remove="Resources\ISFP_FashionDesigner.PNG" />
+	  <None Remove="Resources\ISFP_InteriorDesigner.PNG" />
+	  <None Remove="Resources\ISFP_Photographer.PNG" />
+	  <None Remove="Resources\ISTJ_Accountant.PNG" />
+	  <None Remove="Resources\ISTJ_Auditor.PNG" />
+	  <None Remove="Resources\ISTJ_ProjectCoordinator.PNG" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Resources\ENFJ_CommunityManager.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENFJ_HRManager.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENFJ_Teacher.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENFJ_TrainingSpecialist.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENFP_ContentCreator.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENFP_EventPlanner.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENFP_MarketingCreative.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENFP_PRSpecialist .PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENTJ_BusinessExecutive.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENTJ_ManagementConsultant.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENTJ_OperationsManager.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENTJ_ProjectManager.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENTP and ESTP_Entrepreneur.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENTP_MarketingManager.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENTP_ProductManager.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ENTP_ProductStrategist.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESFJ_Client Relations Specialist.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESFJ_HR Coordinator.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESFJ_Office Manager.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESFP - Actor (1).PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESFP_Hospitality Coordinator.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESFP_Performer_Host.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESFP_Retail Manager.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESTJ_BankOfficer.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESTJ_LogisticsManager.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESTJ_OperationsSupervisor.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESTJ_StoreManager.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESTP_EmergencyServiceTechnician.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESTP_Entrepreneur.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ESTP_SalesRepresentative.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INFJ_ContentStrategist.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INFJ_Counselor.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INFJ_Doctor.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INFJ_Psychologist.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INFP_Event Coordinator.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INFP_Illustrator.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INFP_Writer.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INTJ_AIEngineer.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INTJ_ResearchScientist.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INTJ_SoftwareArchitect.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INTJ_StrategyConsultant.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INTP_DataScientist.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INTP_RoboticsEngineer.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INTP_SystemsAnalyst.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\INTP_UXResearcher.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISFJ_AdministrativeOfficer.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISFJ_Librarian.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISFJ_Nurse.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISFP_CraftArtist.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISFP_FashionDesigner.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISFP_InteriorDesigner.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISFP_Photographer.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISTJ_QualityAssuranceAnalyst.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISTJ_Accountant.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISTJ_Auditor.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISTJ_ProjectCoordinator.PNG">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISTP_FieldServiceTechnican.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISTP_MechanicalTechnician.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISTP_NetworkEngineer.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\ISTP_Pilot.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+</Project>
